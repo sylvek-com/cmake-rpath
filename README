@@ -1,1 +1,12 @@
 cmake undocumented RPATH functionality
+cmake version 3.9.2
+currently doesn't work properly, lost instructions.
+
+$ mkdir try
+$ cd try
+$ cmake -DCMAKE_BUILD_TYPE=Debug ..
+$ make
+$ make install
+$ ~/local/m
+~/local/m: error while loading shared libraries: libl.so: cannot open shared object file: No such file or directory
+$
